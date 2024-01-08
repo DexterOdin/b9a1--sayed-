@@ -92,3 +92,17 @@ a {
     max-width: 100%;
 }
 /*  65% of section end */
+
+/* welcome section start */
+.welcome{}
+.welcome_banner{
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+}
+.wel_contents{
+}
+.wel_cont h2{}
+.wel_cont p{}
+.wel_cont a{}
+.wel-img{}
+.wel-img img{}
+/* welcome section end */
