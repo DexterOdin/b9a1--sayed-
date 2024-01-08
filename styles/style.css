@@ -64,4 +64,31 @@ a {
 /* Banner Section end */
 
 /*  65% of section start */
+.discount_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0px;
+}
+.dis_p1{
+    font-size: 88px;
+    font-weight: 700;
+    color: red;
+    padding-bottom: 48px;
+}
+.dis_p2{
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+    padding-bottom: 10px;
+}
+.dis_p3{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+.discount_content img{
+    max-width: 100%;
+}
 /*  65% of section end */
