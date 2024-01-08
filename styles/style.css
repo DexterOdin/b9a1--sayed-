@@ -36,7 +36,7 @@ a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 20px 0px;
+    margin: 50px 0px;
     border-radius: 16px;
 }
 
@@ -68,7 +68,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 120px 0px;
+    padding: 100px 0px;
 }
 
 .dis_p1 {
@@ -120,7 +120,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 30px;
+    padding-right: 45px;
 }
 
 .wel_cont h2 {
@@ -143,11 +143,59 @@ a {
     text-decoration: none;
     transition: 0.4s;
 }
-.wel_cont a:hover{
-    color: #d6d6d6;
+
+.wel_cont a:hover {
+    color: red;
 }
+
 .wel-img img {
     max-width: 100%;
 }
 
 /* welcome section end */
+
+
+/* Timing section start */
+.timing {
+    padding: 120px 0px;
+}
+
+.timing_content {
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timing_content p {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+.timing_content p>span {
+    color: red;
+}
+
+.timing_content .btn_join {
+    margin-top: 19px;
+    padding: 16px 32px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.timing_content .btn_join:hover{
+    color: #e4e4e4;
+    background-color: rgb(221, 0, 0);
+}
+
+/* Timing section end */
