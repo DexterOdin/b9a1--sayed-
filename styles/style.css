@@ -64,45 +64,90 @@ a {
 /* Banner Section end */
 
 /*  65% of section start */
-.discount_content{
+.discount_content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 120px 0px;
 }
-.dis_p1{
+
+.dis_p1 {
     font-size: 88px;
     font-weight: 700;
     color: red;
     padding-bottom: 48px;
 }
-.dis_p2{
+
+.dis_p2 {
     font-size: 24px;
     font-weight: 500;
     color: red;
     padding-bottom: 10px;
 }
-.dis_p3{
+
+.dis_p3 {
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     padding-bottom: 48px;
 }
-.discount_content img{
+
+.discount_content img {
     max-width: 100%;
 }
+
 /*  65% of section end */
 
 /* welcome section start */
-.welcome{}
-.welcome_banner{
-    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+.welcome_banner {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 16px;
 }
-.wel_contents{
+
+.wel_contents {
+    display: flex;
+    padding: 0px 120px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
 }
-.wel_cont h2{}
-.wel_cont p{}
-.wel_cont a{}
-.wel-img{}
-.wel-img img{}
+
+.wel_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.wel_cont h2 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    padding-bottom: 24px;
+}
+
+.wel_cont p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+.wel_cont a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.wel_cont a:hover{
+    color: #d6d6d6;
+}
+.wel-img img {
+    max-width: 100%;
+}
+
 /* welcome section end */
