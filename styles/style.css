@@ -409,10 +409,53 @@ a {
     width: 423px;
     height: 450px;
     border-radius: 16px;
-    line-height: 500px;
+    line-height: 450px;
     background: #07021152;
 }
 .porfolio_imgs:hover .img_hover{
     opacity: 1;
 }
 /* Portfolio section end */
+
+
+/* Subscribe section start */
+.subscribe{
+    padding: 120px 0px;
+}
+.subs_content{
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.subs_content img{}
+.subs_content p{
+    text-align: center;
+    padding: 30px 120px;
+}
+.input_btn{
+    display: flex;
+}
+.input_btn input{
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    width: 450px;
+    height: 60px;
+    padding: 12px 35px;
+    outline: none;
+}
+.input_btn .subs_btn{
+    padding: 24px 56px;
+    border: none;
+    background: red;
+    border-radius: 0px 50px 50px 0px;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Subscribe section end */
