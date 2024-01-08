@@ -388,6 +388,31 @@ a {
 }
 .porfolio_imgs{
     max-width: 32%;
+    position: relative;
 }
-.porfolio_imgs img{}
+.porfolio_imgs:hover .porfolio_imgs img{
+    background-color: #F00;
+}
+.img_hover{
+    transition: .5s;
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: scale(1);
+    text-align: center;
+}
+.img_hover i{
+    color: #fff;
+    cursor: pointer;
+    font-size: 35px;
+    width: 423px;
+    height: 450px;
+    border-radius: 16px;
+    line-height: 500px;
+    background: #07021152;
+}
+.porfolio_imgs:hover .img_hover{
+    opacity: 1;
+}
 /* Portfolio section end */
