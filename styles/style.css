@@ -172,6 +172,7 @@ hr{
     color: #fff;
     text-decoration: none;
     transition: 0.4s;
+    display: inline-block;
 }
 
 .wel_cont a:hover {
