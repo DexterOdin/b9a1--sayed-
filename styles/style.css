@@ -19,7 +19,6 @@ h6 {
 }
 
 p,
-span,
 strong,
 a {
     font-family: 'Inter', sans-serif;
@@ -30,7 +29,27 @@ a {
     margin: 0 auto;
 }
 
+.common_header {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
 .common_clr {
+    color: #F00;
+}
+
+.common_text {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.common_text2 {
+    font-weight: 500;
+    font-size: 24px;
     color: #F00;
 }
 
@@ -325,29 +344,50 @@ a {
     padding: 15px 140px;
     text-align: center;
 }
-.holidays_img_content{
+
+.holidays_img_content {
     position: relative;
-    height: 1000px;
+    height: 750px;
 }
-.holidays_img_content .holidays_img_1{
+
+.holidays_img_content .holidays_img_1 {
     position: absolute;
     right: 0;
-    bottom: 234px;
+    bottom: 225px;
 }
-.holidays_img_content .holidays_img_2{
+
+.holidays_img_content .holidays_img_2 {
     position: absolute;
     right: 300px;
     bottom: 260px;
 }
-.holidays_img_content .holidays_img_3{
+
+.holidays_img_content .holidays_img_3 {
     position: absolute;
     bottom: 0;
 }
-.holidays_img_content .holidays_img_4{
+
+.holidays_img_content .holidays_img_4 {
     position: absolute;
     left: 0;
-    bottom: 37px;
+    bottom: 0px;
 }
 
-
 /* holidays sale secton end */
+
+/* Portfolio section start */
+.porfolio_text_content .width-75{
+    max-width: 75%;
+}
+.porfolio_img_content{
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+.porfolio_imgs{
+    max-width: 32%;
+}
+.porfolio_imgs img{}
+/* Portfolio section end */
